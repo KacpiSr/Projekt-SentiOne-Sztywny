@@ -20,12 +20,8 @@
                 <div class="row">
                     <div class="col-md-12 col-lg-5">
                         <div class="giveaway__desc">
-                            <div class="giveaway__desc--top text-main--f48 strong--fw400 "> <?php if ($heading_text = get_field('heading_text')) : ?>
-                                    <?php echo $heading_text; ?>
-                                <?php endif; ?></div>
-                            <div class="giveaway__desc--bottom text-main--f24"><?php if ($under_heading_text = get_field('under_heading_text')) : ?>
-                                    <?php echo $under_heading_text; ?>
-                                <?php endif; ?></div>
+                            <div class="giveaway__desc--top text-main--f48 strong--fw400 ">Enter to get free SentiOne premium account.</div>
+                            <div class="giveaway__desc--bottom text-main--f24">This contest is open worldwide, please be sure to read the terms and conditions before entering.</div>
                         </div>
                     </div>
                     <div class="timer-box col-12">
@@ -60,7 +56,7 @@
                                 </div>
                                 <div class="data__ending">
                                     <div class="data__ending--top">ends</div>
-                                    <div class="data__ending--bottom">date</div>
+                                    <div class="data__ending--bottom" >20 Sep 2023</div>
                                 </div>
                             </div>
                         </div>

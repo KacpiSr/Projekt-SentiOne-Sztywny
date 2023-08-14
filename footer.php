@@ -4,13 +4,7 @@
     </div>
 </footer>
 
-<script>
-<?php
-if ($data = get_field('end_date_and_time_of_event')) : ?>
-    let data = '<?php echo $data ?>';
-<?php endif;
-?>
-</script>
+
 
 <?php wp_footer(); ?>
 
